@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class Pattern5 {
     public static void main(String[] args) {
-// pattern 4 , pattern 1 ,pattern 3, pattern 2
-
         /*
          *
          *              +  +
@@ -27,6 +25,7 @@ public class Pattern5 {
         int n = scanner.nextInt();
 
         for (int i = 0; i < n; i++) {
+            // pattern 4
             for (int k = n - i - 1; k > 0; k--) {
                 System.out.print("  ");
             }
@@ -34,7 +33,7 @@ public class Pattern5 {
                 System.out.print("+ ");
             }
             System.out.print("  ");
-
+            // pattern 1
             for (int j = 0; j <= i; j++) {
                 System.out.print("+ ");
             }
@@ -44,6 +43,7 @@ public class Pattern5 {
         System.out.println();
 
         for (int i = n; i > 0; i--) {
+            // pattern 3
             for (int k = n - i; k > 0; k--) {
                 System.out.print("  ");
             }
@@ -51,6 +51,7 @@ public class Pattern5 {
                 System.out.print("+ ");
             }
             System.out.print("  ");
+            // pattern 2
             for (int j = 0; j < i; j++) {
                 System.out.print("+ ");
             }
