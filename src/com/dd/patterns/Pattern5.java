@@ -40,6 +40,8 @@ public class Pattern5 {
             System.out.println();
         }
 
+        System.out.println();
+
         for (int i = n; i > 0; i--) {
             for (int k = n - i; k > 0; k--) {
                 System.out.print("  ");
